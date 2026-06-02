@@ -22,8 +22,8 @@
     "@aws-sdk/client-s3": "^3.600.0",
     "@octokit/rest": "^21.0.0",
     "@octokit/auth-app": "^7.0.0",
-    "workflow": "^0.1.0",
-    "@workflow/ai": "^0.1.0",
+    "workflow": "^4.3.1",
+    "@workflow/ai": "^5.0.0",
     "zod": "^3.23.0"
   },
   "devDependencies": {
