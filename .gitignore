@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs
+dist/
+.next/
+cdk.out/
+*.js.map
+*.d.ts.map
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# AWS CDK
+cdk.context.json
+
+# Vercel
+.vercel
+
+# Turbo
+.turbo
+
+# Test coverage
+coverage/
+.vitest-cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Docker
+.dockerignore
